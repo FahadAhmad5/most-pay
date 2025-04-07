@@ -1,0 +1,847 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+
+.background {
+    background-color: #f0be44;
+    /* background-image: linear-gradient(#f0be44, #c9b896); */
+}
+
+.bg-image {
+    background-image: url('pic/Pics-txt.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 0%;
+}
+
+.banner-image-text {
+    font-family: "Lora", serif;
+    font-size: 5rem;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 110%;
+    padding-top: 10rem;
+}
+
+em {
+    font-family: "Lora", serif;
+    font-size: 80px;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+@media (min-width: 1440px) {
+    .banner-image-text {
+        /* padding-top: 5rem; */
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .banner-image-text {
+        padding-top: 4rem;
+        font-size: 80px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner-image-text {
+        padding-top: 6rem;
+        font-size: 80px;
+    }
+}
+
+/* @media (min-width: 768px) and (max-width: 991px) {
+    .banner-image-text {
+        padding-top: 3rem;
+        font-size: 69px;
+    }
+} */
+
+/* @media (min-width: 576px) and (max-width: 767px) {
+    .banner-image-text {
+        padding-top: 3rem;
+        font-size: 47px;
+    }
+} */
+
+/* @media (max-width: 575px) {
+    .banner-image-text {
+        padding-top: 1rem;
+        font-size: 2.5rem;
+    }
+
+} */
+
+.heading {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 64px;
+    padding-top: 7rem;
+}
+
+.about-us-card {
+    margin-top: 1rem;
+}
+
+.about-us-text {
+    font-family: "Hind Madurai", serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 16px;
+}
+
+.aboutus-five-card-imgs {
+    margin-top: 3rem;
+}
+
+@media screen and (max-width:479px) {
+    .banner-section{
+        padding: 0.063rem!important;
+    }
+    .banner-image-text {
+        padding-top: 1rem;
+        font-size: 2.5rem;
+        padding-left: 0.875rem;
+        padding-right:0.875rem;
+        padding-top: 2.563rem;
+    }
+    .two-people-sitting-on-desk{
+        width: 147px;
+        margin-top: 1rem!important;
+    }
+    .margin-top{
+        margin-top: 1rem!important;
+        margin-bottom: 2rem;
+    }
+    .banner-info-text{
+        font-size: 0.813rem;
+        width:348px!important;
+        padding-left: 1.813rem;
+        padding-right: 0.688rem;
+    }
+    .about-us-section {
+        margin-bottom: 0 !important;
+    }
+
+    .heading {
+        font-size: 1.75rem;
+        padding-top: 1rem;
+    }
+
+    .top-margin {
+        padding-top: 0;
+    }
+
+    .aboutus-three-card-img {
+        width: 124.42px;
+        height: 120px;
+        object-fit: contain;
+    }
+
+    .about-us-text {
+        font-size: 12px;
+    }
+
+    .aboutus-five-card-imgs {
+        margin-top: 0.25rem;
+
+    }
+
+    .aboutus-five-card-img1 {
+        width: 168px;
+        height: 72px;
+        object-fit: contain;
+    }
+
+    .aboutus-five-card-img2 {
+        width: 88px;
+        height: 72px;
+        object-fit: cover;
+    }
+
+    .aboutus-five-card-img3 {
+        width: 54px;
+        height: 72px;
+        object-fit: cover;
+    }
+
+    .aboutus-five-card-img4 {
+        width: 69px;
+        height: 72px;
+        object-fit: cover;
+    }
+
+    .aboutus-five-card-img5 {
+        width: 92px;
+        height: 72px;
+        object-fit: cover;
+    }
+
+    .cards-space {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    .card-space1 {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        padding-bottom: 0.25rem;
+    }
+
+    .card-space2 {
+        /* padding-left: 0rem; */
+        padding-right: 1rem;
+        padding-bottom: 0.25rem;
+    }
+
+    .card-space3 {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        padding-bottom: 0.25rem;
+    }
+
+    .card-space4 {
+        padding-right: 1rem;
+        padding-bottom: 0.25rem;
+    }
+
+    .card-space5 {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+
+    .service-heading {
+        padding-top: 1.25rem !important;
+    }
+
+    .services-sub-text {
+        font-size: 1rem !important;
+        margin-top: 1rem !important;
+    }
+
+    .service-content {
+        margin-top: -0.5rem !important;
+    }
+
+    .service-content-text {
+        font-size: 0.75rem !important;
+        /* width: 300px; */
+        /* height: 48px; */
+    }
+
+    .service-content-text-space {
+        margin-bottom: 0.5rem !important;
+    }
+
+    .div-list {
+        height: 140px;
+    }
+
+    .earth-img {
+        width: 169px;
+        height: 170px;
+        /* object-fit: cover; */
+    }
+
+    .service-provide-text {
+        font-size: 1rem !important;
+    }
+
+    .gy-4 {
+        --bs-gutter-y: 0.75rem;
+    }
+
+    .service-provide-card {
+        margin-top: 0.5rem !important;
+    }
+
+    .card-img {
+        width: 133.3px;
+        height: 80px;
+        object-fit: contain;
+    }
+
+    .service-card-heading-text {
+        font-size: 1rem !important;
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+        margin-left: 0rem !important;
+        margin-right: 0rem !important;
+        width: 300px !important;
+        height: 24px !important;
+    }
+
+    .service-cards-text {
+        font-size: 0.75rem !important;
+        margin-top: 0.5rem !important;
+    }
+
+    .below-card {
+        padding-top: 0rem !important;
+        /* padding-right:0rem!important; */
+    }
+
+    .button-div {
+        margin-top: 1.75rem !important;
+    }
+
+    .button {
+        font-size: 13px !important;
+        width: 134px !important;
+        height: 32px !important;
+    }
+
+    .advantage-section {
+        margin-top: 1rem !important;
+    }
+
+    .advantage-content {
+        margin-top: 1rem !important;
+    }
+
+    .advantage-heading {
+        font-size: 1.75rem !important;
+    }
+
+    .advantage-content-img1 {
+        width: 120px !important;
+        height: 100px !important;
+        object-fit: contain !important;
+    }
+
+    .advantage-content-img2 {
+        width: 120px !important;
+        height: 68.87px !important;
+        object-fit: contain !important;
+    }
+
+    .advantage-text {
+        font-size: 0.75rem !important;
+        margin-bottom: 0rem !important;
+    }
+
+    .get-in-touch-content {
+        margin-top: 0rem !important;
+    }
+
+    .sub-heading-getintouch {
+        font-size: 0.75rem !important;
+        margin-bottom: 0rem !important;
+    }
+
+    .get-in-touch-content-list {
+        font-size: 0.75rem !important;
+        padding-left: 0.75rem !important;
+    }
+
+    .get-in-touch-content-list-space {
+        padding-left: 0rem !important;
+        margin-left: 0rem !important;
+    }
+
+    .form-heading {
+        font-size: 0.875rem !important;
+    }
+
+    .order-1 {
+        padding-bottom: 0 !important;
+    }
+
+    .order-2 {
+        padding-top: 0 !important;
+    }
+
+    .form-text {
+        font-size: 0.75rem !important;
+    }
+
+    .second-form {
+        padding-top: 0rem !important;
+    }
+
+    .submit-button {
+        margin-top: 0rem !important;
+
+    }
+
+    .button-submit {
+        width: 109px !important;
+        height: 32px !important;    
+        font-size: 13px !important;
+    }
+    .getintouch-dog-img{
+        width:99.07px;
+        height:120px;
+        margin-bottom: 1.25rem!important;
+    }
+    .mostpay-logo{
+        width: 77.47px;
+        height: 64px;
+    }
+    .footer-content-list{
+        margin-top: 1rem!important;
+    }
+    .mostpay-img{
+        margin-top:1.25rem!important;
+    }
+    .ul-style{
+        font-size: 0.75rem!important;
+        /* height: 1rem!important; */
+    }
+    .list-style{
+        height: 2rem!important;
+    }
+    .list-unstyled{
+        margin-bottom: 0rem!important;
+    }
+    .ul-style2{
+        padding-left: 1rem;
+        padding-bottom: 1.5rem;
+    }
+    .social-icon{
+        margin-left:0.438rem;
+    }
+    .skype-icon{
+        width: 26px;
+        height: 26px;  
+    }
+    .linkdin-icon{
+        width: 24.5px;
+        height: 24.5px;
+        margin-left: 0.125rem;  
+    }
+    .social-media-icon{
+        width: 23.33px;
+        height: 23.33px;
+        margin-left: 0.125rem;  
+    }
+    .visa-img{
+        width: 44.39px;
+        height: 28px;
+        object-fit: contain;
+    }
+    .mastercard-img{
+        width: 40.91px;
+        height: 28px;
+        object-fit: contain;
+        margin-left:0.25rem;
+    }
+    .googlepay-img{
+        width: 41.06px;
+        height: 28px;
+        object-fit: contain;
+        margin-left:0.25rem;
+    }
+    .applepay-img{
+        width: 40.77px;
+        height: 28px;
+        object-fit: contain;
+        margin-left:0.25rem;
+    }
+    .mbway-img{
+        width: 44.62px;
+        height: 28px;
+        object-fit: contain;
+        margin-left:0.25rem;
+    }
+    .paypal-img{
+        width: 40.7px;
+        height: 28px;
+        object-fit: contain;
+        margin-left:0.25rem;
+    }
+    .pci-img{
+        width: 44.68px;
+        height: 28px;
+        object-fit: contain;
+        margin-left:0.25rem;
+    }
+    .payment-card-img{
+        margin-left:0.438rem;
+    }
+    .footer-text{
+        font-size: 0.875rem!important;
+        width: 348px;
+        padding-left:0.25rem!important;
+        margin-top :2.6rem;
+    }
+    .copyright-div{
+        font-size: 0.75rem;
+        margin-top: 0rem!important;
+    }
+}
+/* 480px to 768px screen */
+@media(min-width:480px) and (max-width:767px) {
+    .banner-image-text {
+        padding-top: 3rem;
+        font-size: 3.25rem!important;
+        padding-top: 1.375rem;
+    }
+    .heading {
+        font-size: 2rem;
+        padding-top: 2rem;
+        margin-top: 0;
+    }
+    .two-people-sitting-on-desk{
+        width: 185px;
+    }
+    .margin-top{
+        margin-top: 3rem!important;
+    }
+    .banner-info-text{
+        font-size: 0.875rem;
+    }
+    .aboutus-three-card-img{
+        width: 141.15px;
+        height: 140px;
+        object-fit: contain;
+    }
+    .about-us-text{
+        font-size: 0.875rem;
+        /* margin-left: 0rem!important;
+        margin-right: 0rem!important; */
+    }
+    .aboutus-five-card-imgs {
+        margin-top: 0.625rem;
+    }
+    .aboutus-five-card-img1{
+        width: 70px;
+        object-fit: contain;
+    }
+    .aboutus-five-card-img2{
+        width: 88px;
+        object-fit: cover;
+    }
+    .aboutus-five-card-img3{
+        width: 70px;
+        object-fit: cover;
+    }
+    .aboutus-five-card-img4{
+        width: 69px;
+        object-fit: cover;
+    }
+    .aboutus-five-card-img5{
+        width: 92px;
+        object-fit: cover;
+    }
+    .about-us-card-text{
+        font-size: 0.875rem;
+    }
+    .cards-width{
+        width: 214px;
+        height: 148px;
+    }
+    .cards-space {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    .card-space1 {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        padding-bottom: 0.25rem;
+    }
+
+    .card-space2 {
+        /* padding-left: 0rem; */
+        padding-right: 1rem;
+        padding-bottom: 0.25rem;
+    }
+
+    .card-space3 {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        padding-bottom: 0.25rem;
+    }
+
+    .card-space4 {
+        padding-right: 1rem;
+        padding-bottom: 0.25rem;
+    }
+
+    .card-space5 {
+        padding-left: 0.75rem;
+        padding-right: 1.5rem;
+    }
+    .service-heading {
+        padding-top: 0rem !important;
+    }
+    .services-sub-text{
+        font-size: 1.25rem!important;
+    }
+    .service-content-text{
+        font-size: 0.875rem!important;
+    }
+    
+    .service-content-text-space {
+        margin-bottom: 0.5rem !important;
+    }
+    .div-list {
+        height: 140px;
+    }
+    .earth-img{
+        width: 220px;
+        height:223.04px;
+    }
+    .service-provide-text{
+        font-size: 1.25rem!important;
+        margin-top: 1.75rem!important;
+    }
+    .card-img {
+        width: 166.67px;
+        height: 100px;
+        object-fit: contain;
+    }
+    /* .service-heading-text{
+        width: 150px!important;
+    } */
+    .service-card-heading-text {
+        font-size: 1.125rem !important;
+        /* padding-left: 0rem !important;
+        padding-right: 0rem !important; */
+        /* margin-left: 0rem !important;
+        margin-right: 0rem !important; */
+        /* width: 300px !important;
+        height: 24px !important; */
+    }
+    .service-cards-text{
+        font-size: 0.875rem!important;
+    }
+    
+}                                                                                                              
+@media(min-width:768px) and (max-width:999px) {
+
+    .banner-image-text{
+        padding-top: 3.25rem;
+        font-size: 4rem;
+    }
+
+    .two-people-sitting-on-desk{
+        width: 296.26px;
+        height: 300px;
+        object-fit: contain;
+        margin-top: 1.875rem!important;
+    }
+    .margin-top{
+        margin-top: 3rem!important;
+    }
+    .heading {
+        font-size: 3rem;
+    }
+    .aboutus-card-img{
+        width: 135.73px;
+        height:180px;
+        object-fit:contain;
+
+    }
+    .aboutus-card-img{
+        width: 135.73px;
+        height:180px;
+        object-fit:contain;
+
+    }    
+    .aboutus-card-img1{
+        width: 165.89px;
+        height:180px;
+        object-fit:contain;
+    }
+    .about-us-text{
+        margin-right: 0rem!important;
+        margin-left: 0rem!important;
+    }
+
+}
+
+@media (min-width:1000px) and (max-width:1496px) {
+    .top-margin {
+        padding-top: 2rem;
+    }
+}
+
+/* .about-us-card-text {
+    font-family: "Hind Madurai", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+} */
+
+/* .font {
+    font-size: 60px;
+} */
+/* .service-heading{
+} */
+.margin-top {
+    margin-top: 80px;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.icon-text::before {
+    content: url('/pic/blue\ star\ standing.png');
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.card-img {
+    width: 200px;
+    margin: 20px auto;
+}
+
+.background-color {
+    background-color: #eec86d;
+
+}
+
+.card-height {
+    height: 100%;
+}
+
+.services-sub-text {
+    font-family: "Lora", serif;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.service-content-text {
+    font-family: "Hind Madurai", serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.service-card-heading-text {
+    font-family: "Lora", serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+.service-provide-text {
+    font-family: "Lora", serif;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.service-cards-text {
+    font-family: "Hind Madurai", serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 5px;
+
+}
+
+.button {
+    font-family: "Hind Madurai", serif;
+    font-size: 16px;
+    font-weight: 600;
+    width: 150px;
+    height: 40px;
+}
+
+.advantage-heading {
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.advantage-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: "Hind Madurai", serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.advantage-text img {
+    width: 174px;
+    margin-right: 15px;
+}
+
+.advantage-images img {
+    margin-bottom: 20px;
+}
+
+/* .form-font{
+    font-size: 16px;
+} */
+.get-in-touch-content-list {
+    font-family: "Hind Madurai", serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.sub-heading-getintouch {
+    font-family: "Hind Madurai", serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 5px;
+}
+
+.form-heading {
+    font-family: "Hind Madurai", serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: bold;
+    margin-top: 5px;
+}
+
+.form-text {
+    font-family: "Hind Madurai", serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: bold;
+}
+
+.spacing-radiobutton-top {
+    margin-top: 2.25rem;
+}
+
+.ul-style {
+    text-decoration: none;
+    line-height: 3rem;
+    font-family: "Hind Madurai", serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.submit-button {
+    margin-top: 2rem;
+}
+.button-submit {
+    width: 120px;
+    height: 40px;
+    font-family: "Hind Madurai", serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: bold;
+    padding-top: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 8px;
+}
+.footer-text{
+    font-family: "Hind Madurai", serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+}
